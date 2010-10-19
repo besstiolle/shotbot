@@ -51,13 +51,13 @@ if(strpos($url, 'localhost') !== FALSE)
 }
 
 
-// Formulaire de renseignement de la clé
+// Formulaire de renseignement de la cle
 $smarty->assign('formKeyStart' , $this->CreateFormStart($id, 'adminSavePrefs', $returnid));
 $smarty->assign('formKeyInputText' ,$this->CreateInputText($id, 'key', $key, '', 15));
 $smarty->assign('submitKey' , $this->CreateInputSubmit($id, 'submitKey', $this->Lang('submit_config')));
 $smarty->assign('formKeyEnd' , $this->CreateFormEnd());
 
-// Formulaire de test de la clé
+// Formulaire de test de la cle
 $smarty->assign('formUrlStart' , $this->CreateFormStart($id, 'adminTestKey', $returnid));
 $smarty->assign('formUrlInputText' ,$this->CreateInputText($id, 'url', $url, 30, 150));
 $smarty->assign('formUrlInputHidden' ,$this->CreateInputHidden($id, 'create', '1'));
