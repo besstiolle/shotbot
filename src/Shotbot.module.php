@@ -103,11 +103,6 @@ class Shotbot extends CMSModule
     return "1.5";
   }
   
-   function MaximumCMSVersion()
-  {
-    return "1.9";
-  }
-  
   function SetParameters()
   {
 	$this->RestrictUnknownParams();
