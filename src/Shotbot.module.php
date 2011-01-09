@@ -1,19 +1,22 @@
 <?php
 #-------------------------------------------------------------------------
-# Module: Shotbot - Module proposant une interface avec l'API du site internet
+# Module: ShowRoom - Module proposant une interface avec l'API du site internet
 #           shotbot.fr pour tous les modules de Cms Made Simple.
 #
 # Version: de Kevin Danezis Aka "Bess"
 # Author can be join on the french forum : http://www.cmsmadesimple.fr/forum 
-#           or by email : contact [plop] furie [plap] be
+#        or by email : contact [plop] furie [plap] be
 #
-# The discussion page around the module : N/A
-# The author's git page is : http://github.com/besstiolle
-# The module's git page is : http://github.com/besstiolle/shotbot
+# The module's download page is : http://dev.cmsmadesimple.org/project/files/918
 # The module's demo page is : http://www.cmsmadesimple.fr/showroom
 #
+# The discussion page around the module : N/A
+# The author's GIT page is : https://github.com/besstiolle
+# The module's GIT page is : https://github.com/besstiolle/shotbot
+# The module's SVN page is : N/A
+#
 #-------------------------------------------------------------------------
-# CMS - CMS Made Simple is (c) 2005 by Ted Kulp (wishy@cmsmadesimple.org)
+# CMS - CMS Made Simple is (c) 2004-2011 by Ted Kulp (wishy@cmsmadesimple.org)
 # This project's homepage is: http://www.cmsmadesimple.org
 #-------------------------------------------------------------------------
 # This program is free software; you can redistribute it and/or modify
