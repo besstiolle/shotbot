@@ -63,20 +63,9 @@ $lang['help'] = '<h3>What Does This Do?</h3>
 
 <h3>Support</h3>
 <p>This module does not include commercial support. However, there are a number of resources available to help you with it:</p>
-<ul>
-<li>For the latest version of this module, FAQs, or to file a Bug Report, please visit the Module Forge
-<a href="http://dev.cmsmadesimple.org/projects/osc">OSC Page</a>.</li>
-<li>Want to see the source code on GitHub ? please visit the 
-<a href="http://github.com/besstiolle/Open-Statistics-Community">GitHub page</a>.</li>
-<li>and for which statistics are they?
-<a href="http://www.cmsmadesimple.fr/statistiques">look for yourself</a>.</li>
-<li>Additional discussion of this module may also be found in the <a href="http://www.cmsmadesimple.fr/forum/viewtopic.php?pid=17090#p17090">French CMS Made Simple Forums </a>.</li>
-<li>Lastly, you may have some success emailing the author directly.</li>  
-</ul>
 <p>As per the GPL, this software is provided as-is. Please read the text of the license for the full disclaimer.</p>
 <h3>Copyright and License</h3>
 <p>Copyright &amp;copy; 2009, Kevin Danezis aka &quot;Bess&quot; <a href="mailto:besstiolle@gmail.com"><besstiolle@gmail.com></a>. All Rights Are Reserved.</p>
 <p>This module has been released under the <a href="http://www.gnu.org/licenses/licenses.html#GPL">GNU Public License</a>. You must agree to this license before using the module.</p>
 ';
-$lang['alert_not_send'] = 'The last attempt to send statistics to the server has a failure. You should take a look and see what it is.';
 ?>
