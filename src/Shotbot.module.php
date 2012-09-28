@@ -45,7 +45,7 @@ class Shotbot extends CMSModule
 
   function GetVersion()
   {
-    return '1.0.1';
+    return '1.0.2';
   }
   
   function GetHelp()
