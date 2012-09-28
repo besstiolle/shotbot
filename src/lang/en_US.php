@@ -23,15 +23,44 @@ $lang['keynotfound'] = 'Key not found!';
 $lang['prefsupdated'] = 'Key updated';
 
 
-$lang['moddescription'] = 'This module is an implementation for <a href="http://www.shotbot.fr">shotbot</a>\'s API';
+$lang['moddescription'] = 'This module is an implementation for <a href="http://www.shotbot.fr">shotbot</a>\'s API, also nammed "Ascreen generator"';
 $lang['changelog'] = '<ul>
-	<li>V0.0.1 : first release</li>
+	<li>V1.0.0 : stable release</li>
 </ul>
 ';
 $lang['help'] = '<h3>What Does This Do?</h3>
-<p>This module generates anonymous statistics about your use of CMS Made Simple</p>
+<p>This module let you generate thumbnails from a website within another module</p>
 <h3>How to use...</h3>
 <p>Install. it\'s already good :)</p>
+
+<p>Exemple of code</p>
+<code>
+	$modops = cmsms()->GetModuleOperations();
+	$shotbotApi = $modops->get_module_instance("Shotbot");
+	
+	$url = "http://www.cmsmadesimple.fr";
+	
+	//Make a new capture
+	shotbotApi->newUrlCapture($url);
+  
+	//Give me the picture url in width of ... (default = 120); 
+  	shotbotApi->getUrlCapture($url);
+  	shotbotApi->getUrlCapture($url,80);		//(80x60)
+  	shotbotApi->getUrlCapture($url,92);		//(92x69)
+  	shotbotApi->getUrlCapture($url,120);	//(120x90)
+  	shotbotApi->getUrlCapture($url,160);	//(160x120)
+  	shotbotApi->getUrlCapture($url,240);	//(240x180)
+  	shotbotApi->getUrlCapture($url,320);	//(320x240)
+  	shotbotApi->getUrlCapture($url,1024);	//(1024x768)
+	
+  
+	//Refresh the picture
+  	shotbotApi->updateUrlCapture($url);
+  
+	//What is my actual quota ?
+	shotbotApi->getUrlStatus();
+</code>
+
 <h3>Support</h3>
 <p>This module does not include commercial support. However, there are a number of resources available to help you with it:</p>
 <ul>

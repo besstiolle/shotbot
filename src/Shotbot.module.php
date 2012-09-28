@@ -45,7 +45,7 @@ class Shotbot extends CMSModule
 
   function GetVersion()
   {
-    return '1.0.0';
+    return '1.0.1';
   }
   
   function GetHelp()
@@ -100,12 +100,7 @@ class Shotbot extends CMSModule
 
   function MinimumCMSVersion()
   {
-    return "1.9.4.2"; //last securised version
-  }
-  
-   function MaximumCMSVersion()
-  {
-    return "1.10.9";
+    return "1.11.0"; 
   }
   
   function SetParameters()
